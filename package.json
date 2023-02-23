@@ -1,0 +1,20 @@
+{
+  "name": "meme-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for meme creation",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npx ts-node src/main.ts"
+  },
+  "author": "it1shka",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@types/node": "^18.14.1",
+    "jimp": "^0.22.5"
+  }
+}
