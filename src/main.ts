@@ -65,4 +65,7 @@ bot.catch(async (err) => {
   console.log(err.message)
 })
 
+process.once('SIGINT', () => bot.stop())
+process.once('SIGTERM', () => bot.stop())
+
 bot.start()
