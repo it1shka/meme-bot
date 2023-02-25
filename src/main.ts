@@ -20,6 +20,8 @@ async function help(ctx: CommandContext<Context>) {
     5) Send the message
 
     Then bot will generate a meme for you
+
+    <b> For now, bot generates memes only in English! </b>
   `), { parse_mode: 'HTML' })
 }
 
@@ -31,7 +33,7 @@ bot.command('start', async (ctx) => {
     <b> Hello, ${username}! </b>
     Thanks for using my bot!
     
-    Author: @nihil4 <a href="github.com/it1shka"> it1shka </a>
+    Author: @nihil4
   `), { parse_mode: 'HTML' })
   await help(ctx)
 })
